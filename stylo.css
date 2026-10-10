@@ -1,0 +1,84 @@
+.letras{
+    color: aqua;
+    line-height: 2.5;
+}
+th{
+    color: blueviolet;
+    font-size: 25px;
+}
+td{
+    background-color: brown;
+    text-transform: uppercase;
+}
+#titulo{
+    color: blanchedalmond;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: double;
+}
+body{
+    background-color: grey;
+}
+nav a {
+    color: yellowgreen;
+}
+nav a:hover{
+    color: violet;
+}
+.msj:focus{
+    outline: solid yellow 5px;
+    font-weight: 700;
+}
+button:active{
+    background-color: yellow;
+}
+#color{
+    color: aquamarine;
+}
+#fontsize{
+    font-size: 30px;
+}
+#family{
+    font-family: fantasy;
+}
+#fontweight{
+    font-weight: 700;
+}
+#lineheight{
+    line-height: 1.5;
+}
+#transform{
+    text-transform: uppercase;
+}
+#decoration{
+    text-decoration: underline 23px;
+}
+table{
+    border: 5px solid green;
+}
+button{
+    background-color: blue;
+    border-radius: 50px;
+    padding: 30px 60px 30px 90px;
+    margin: 30px 20px 10px 100px;
+}
+.barra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(17, 15, 83);
+}
+.precios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.tarjet{
+    flex: 1;
+    border: 20px;
+    color: blueviolet;
+    background-color: rgb(113, 180, 12);
+    padding: 30px;
+    text-align: center;
+}
